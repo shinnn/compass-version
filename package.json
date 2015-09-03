@@ -1,0 +1,41 @@
+{
+  "name": "compass-version",
+  "version": "0.0.0",
+  "description": "Get the version of a compass binary in semver format",
+  "repository": "shinnn/compass-version",
+  "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
+  "scripts": {
+    "pretest": "eslint --config @shinnn/node-legacy index.js test/test.js",
+    "test": "node --strong_mode --harmony_destructuring --throw-deprecation --track-heap-objects test/test.js",
+    "coverage": "node --strong_mode --harmony_destructuring node_modules/.bin/istanbul cover test/test.js"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "compass",
+    "bundle",
+    "bin",
+    "binary",
+    "installed",
+    "version",
+    "find",
+    "promise",
+    "promises",
+    "semver",
+    "async",
+    "asynchronous",
+    "asynchronously"
+  ],
+  "dependencies": {
+    "compass-version-callback": "1.0.0",
+    "pinkie-promise": "^1.0.0"
+  },
+  "devDependencies": {
+    "@shinnn/eslint-config-node-legacy": "^1.0.0",
+    "eslint": "^1.6.0",
+    "istanbul": "^0.3.22",
+    "tape": "^4.2.1"
+  }
+}
