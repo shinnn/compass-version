@@ -1,4 +1,3 @@
-sudo: false
 git:
   depth: 1
 branches:
