@@ -1,6 +1,6 @@
 {
   "name": "compass-version",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Get the version of a compass binary in semver format",
   "repository": "shinnn/compass-version",
   "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
